@@ -1,2 +1,4 @@
-# calulator
+# Calculator
 A Calculator Chrome Extension
+
+
