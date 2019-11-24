@@ -1,0 +1,49 @@
+body {
+    background: rgb(2, 12, 32);
+}
+
+/* button divs: */
+
+.number-div {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100px;
+}
+
+.operations-div {
+    width: 30px;
+    text-align: center;
+}
+
+/* button styles: */
+
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#zero {
+    width: 60px;
+}
+
+.number {
+    background-color: #BEE9E8
+}
+
+.top {
+    background-color: #5FA8D3
+}
+
+/* total bar: */
+.display {
+    background: #e4e4e4;
+    margin-bottom: .5rem;
+    width: 130px;
+}
