@@ -2,7 +2,9 @@
     "name": "Calulator",
     "version": "1.0",
     "description": "A Calculator Extension for Learning",
-    "permissions": ["storage"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
     "background": {
         "scripts": ["background.js"],
         "persistent": false
